@@ -1,0 +1,26 @@
+h1{
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+h2{
+    text-align: left;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    text-indent: 24px;
+    line-height: 24px;
+    word-spacing: 1px;
+}
+.fr{
+    float: right;
+    border: solid 1px lightgray;
+    padding: 5px;
+    display: table;
+}
+.fr figcaption{
+    display: table-caption;
+    caption-side: bottom;
+}

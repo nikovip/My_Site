@@ -1,0 +1,88 @@
+body{
+    background-color:bisque;
+}
+p{
+    font-size: 35px;
+    color: blueviolet;
+    background-color:aquamarine;
+}
+.p1{
+    display: inline;
+}
+.p2{
+    display: block;
+}
+.p2 span{
+    border: 3px dashed gray;
+    background-color: gold;
+    display: inline-block;
+}
+u1{
+    list-style: none;
+}
+li{
+    display: inline;
+    border: 1px dashed gray;
+}
+li:hover{
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+}
+#first{
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    border: 20px pink;
+    border-style: dotted solid dashed double;
+}
+#second{
+    width: 500px;
+    height: 800px;
+    background-color: cornsilk;
+    margin: 100px;
+    padding: 40px;    
+}
+#third, #fourth{
+    width: 400px;
+    height: 200px;
+    background-color: violet;
+    margin: 50px;
+    border: 10px dashed;
+    border-color: red royalblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#fourth{
+    background-color: orange;
+    border-style: dotted;
+}
+#one{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border: solid 3px;
+    margin: 100px;
+}
+#two{
+    width: 400px;
+    height: 400px;
+    margin: 45px;
+    background-color: khaki;
+    border: dashed 3px;
+}
+#three{
+    width: 150px;
+    height: 150px;
+    margin: 125px;
+    background-color: darkgoldenrod;
+    border: dashed 3px;
+    display: flex;
+
+}
